@@ -1,0 +1,9 @@
+sensor_msgs/PointCloud2 in_cloud 
+---
+geometry_msgs/Vector3 major_vector
+geometry_msgs/Vector3 middle_vector
+geometry_msgs/Vector3 minor_vector
+geometry_msgs/Point centroid
+bool status
+
+

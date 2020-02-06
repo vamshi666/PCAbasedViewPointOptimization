@@ -1,0 +1,7 @@
+sensor_msgs/PointCloud2 in_cloud 
+---
+# sensor_msgs/PointCloud2 out_cloud
+bool status
+bool found
+float32 normals_angle
+float32 normal_distvector_angle

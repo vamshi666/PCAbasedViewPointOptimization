@@ -1,0 +1,7 @@
+<launch>
+
+    <include file="$(find panda_moveit)/launch/panda_bringup_moveit.launch"/>
+
+    <include file="$(find servoing_franka)/launch/services.launch"/>
+
+</launch>

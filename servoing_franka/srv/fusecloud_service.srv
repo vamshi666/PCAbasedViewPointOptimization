@@ -1,0 +1,4 @@
+sensor_msgs/PointCloud2 current_cloud 
+---
+sensor_msgs/PointCloud2 fused_cloud
+bool status
