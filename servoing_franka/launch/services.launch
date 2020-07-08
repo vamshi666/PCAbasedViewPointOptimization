@@ -1,10 +1,8 @@
 <launch>
-
     <node name="computepca_service" pkg="servoing_franka" type="computepca_service" />
     <node name="fusecloud_service" pkg="servoing_franka" type="fusecloud_service" />
     <node name="graspquality_service" pkg="servoing_franka" type="graspquality_service" />
     <node name="move_panda" pkg="servoing_franka" type="move_panda" />
     <node name="pose_service" pkg="servoing_franka" type="pose_service" />
     <node name="segment_service" pkg="servoing_franka" type="segment_service" />
-
 </launch>

@@ -145,14 +145,9 @@ add_definitions(${PCL_DEFINITIONS})
 
 
 
-add_executable(centroid src/centroid.cpp)
-add_executable(segment_object src/segment.cpp)
 add_executable(move_panda src/move_panda.cpp)
 add_executable(pose_service src/pose_service.cpp)
-add_executable(segment_service src/segmenting_service.cpp)
-add_executable(pca src/pca.cpp)
-add_executable(fuse_clouds src/fuse_cloud.cpp)
-#add_executable(grasp_quality src/grasp_quality.cpp)
+add_executable(segment_service src/segment_service.cpp)
 add_executable(graspquality_service src/graspquality_service.cpp)
 add_executable(computepca_service src/computepca_service.cpp)
 add_executable(explore_fsm src/explore_fsm.cpp)
@@ -161,14 +156,9 @@ add_executable(fusecloud_service src/fusecloud_service.cpp)
 
 
 
-target_link_libraries(centroid ${catkin_LIBRARIES})
-target_link_libraries(segment_object ${catkin_LIBRARIES})
 target_link_libraries(move_panda ${catkin_LIBRARIES})
 target_link_libraries(pose_service ${catkin_LIBRARIES})
 target_link_libraries(segment_service ${catkin_LIBRARIES} ${PCL_LIBRARIES})
-target_link_libraries(pca ${catkin_LIBRARIES})
-target_link_libraries(fuse_clouds ${catkin_LIBRARIES})
-#target_link_libraries(grasp_quality ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 target_link_libraries(graspquality_service ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 target_link_libraries(computepca_service ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 target_link_libraries(explore_fsm ${catkin_LIBRARIES} ${PCL_LIBRARIES})
